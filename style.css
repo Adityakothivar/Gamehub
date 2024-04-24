@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+header .navbar{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+header .navbar label img{
+    width: 120px;
+    height: 80px;
+    float: left;
+}
+header .navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin-right: 150px;
+}
+header .navbar ul li{
+    float: left;
+    margin: 0px 25px;
+    font-size: 30px;
+    line-height: 80px;
+    transition: 0.3s;
+}
+header .navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.cell1{
+    float: left;
+    width: 20vw;
+    height: 90vh;
+    background-color: black;
+}
+.cell1 h2{
+    color: gold;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+}
+.cell1 ul li{
+    color: gold;
+    font-size: 40px;
+    margin: 70px 0px 70px 80px;
+    transition: 0.3s;
+}
+.cell1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.cell2{
+    width: 100vw;
+    height: 90vh;
+    background: url(jigar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cell2 .font{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 220px;
+}
+.cell2 h1{
+    font-size: 150px;
+    color: gold;
+    font-weight: lighter;
+}
+.cell2 .font h2{
+    
+    font-size: 100px;
+    font-weight: lighter;
+    color: white;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 21px;
+}
+.item:hover{
+    scale: 1.2;
+}

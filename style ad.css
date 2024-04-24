@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(jigar.png);
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    padding: 10px;
+    background-color: #000000;
+    border-radius:100px;
+    border: 10px;
+    border-color: rgb(39, 128, 206);
+    box-shadow: 0 20px 30px rgba(50, 9, 232, 0.941);
+    color: white;
+    border-radius: 50px;
+    margin-left: 550px;
+    margin-top: 300px;
+}
+label{
+font-size: 21px;
+}
+input[type="text"],
+input[type="password"],
+input[type="button"] {
+    width: 200px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-radius: 50px;
+}
+
+input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    size: 100px;
+}
+.min{
+    width: 410px;
+    height: 400px;
+}
+
+
+#submit{
+    font-size: 20px;
+    width: 150px;
+    transition: 0.3s;
+    margin-left: 100px;
+}
+#submit:hover{
+    scale: 1.1;
+}
